@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html leng="'em">
+    <head >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;800&family=Heebo:wght@300;400;700&family=Nunito:ital,wght@0,400;1,600&family=Secular+One&display=swap" rel="stylesheet">
+        <title>
+            MY Portfolio
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        
+    </head>
+    <body>
+        <header>
+            <div class="Nav"> </div>
+            <div class="Top">PORTFOLIO</div>
+            <div class="Nav-Bar"> </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="Home-BG">
+            <div class="Backimage"> </div>
+            <div class="Welcome">Welcome</div>
+            <div class="I"> I'm</div>
+            <div class="Kruthik">Kruthik Ballari</div>
+            <div class="button1"><button>Explore >></button></div>
+        </section>
+        <section class="About-page">
+            <div class="About">ABOUT</div>
+            <div class="About-section">
+                <div class="Text"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p></div>
+                <div class="Image"><img src="Images/kruthik.png" alt="Kruthik Ballari"></div>
+            </div>          
+        </section>
+        <section class="Projects-page">
+            <div class="Project">PROJECTS</div>
+            <div class="container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="Images/img_lights_wide.jpg" alt="Img1"><a href="#" >Explore More</a></div>
+                      <div class="swiper-slide"><img src="Images/img_mountains_wide.jpg" alt="Img2"><a href="#" >Explore More</a></div>
+                      <div class="swiper-slide"><img src="Images/img_snow_wide.jpg" alt="Img3"><a href="#" >Explore More</a></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="Experience-page">
+            <div class="Experiences">EXPERIENCE</div>
+            <div class="container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="Images/img_lights_wide.jpg" alt="Img1"><a href="#" >Explore More</a></div>
+                      <div class="swiper-slide"><img src="Images/img_mountains_wide.jpg" alt="Img2"><a href="#" >Explore More</a></div>
+                      <div class="swiper-slide"><img src="Images/img_snow_wide.jpg" alt="Img3"><a href="#" >Explore More</a></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+              
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              
+              });
+        </script>
+    </body>
+</html>
